@@ -20,7 +20,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center border-4 border-purple-700 rounded-lg"
-                  src={"/public/P1.jpeg"}
+                  src={"/P1.jpeg"}
+                  width={200}
+                  height={200}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 rounded-lg border-gray-200 bg-slate-400 opacity-40 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1 ">
@@ -47,7 +49,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center border-4 border-purple-700 rounded-lg"
-                  src={"/public/P3.jpeg"}
+                  src={"/P3.jpeg"}
+                  width={200}
+                  height={200}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 rounded-lg border-gray-200 bg-slate-400 opacity-40 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">
@@ -74,7 +78,9 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center border-4 border-purple-700 rounded-lg"
-                  src={"/public/P2.jpeg"}
+                  src={"/P2.jpeg"}
+                  width={200}
+                  height={200}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 rounded-lg border-gray-200 bg-slate-400 opacity-40 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-black mb-1">

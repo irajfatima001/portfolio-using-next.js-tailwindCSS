@@ -9,12 +9,12 @@ const About = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div
             className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"
-            data-aos="fade-zoom" // AOS animation
+            data-aos="fade-zoom" 
           >
             <Image
               className="object-cover object-center rounded-full mx-auto w-[300px] h-[300px] shadow-xl shadow-gray-500"
               alt="hero"
-              src={"/public/profile.jpg"}
+              src={"/profile.jpg"}
               width={300}
               height={500}
             />

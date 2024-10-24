@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
-//import Link from "next/link";
+
 import React from "react";
 import { AiOutlineCloudDownload } from "react-icons/ai";
-import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   return (
@@ -14,26 +13,21 @@ export default function Hero() {
           data-aos="fade-right"
         >
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-fuchsia-600">
-              IRAJ FATIMA
-            </span>
+           
+              HELLO!
+            
             <br className="hidden lg:inline-block" />
-            <Typewriter
-              options={{
-                strings: ["Fronten Web Developer", "UI/UX Designer"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-800 to-fuchsia-600">I'm IRAJ FATIMA</span>
+            
+            <p>Front-end Web Developer</p>
           </h1>
           <div className="w-[100px] h-[2px] bg-purple-700"></div>
           <p className="mb-8 leading-relaxed">
-            Hello! I'm a passionate web developer dedicated to
-            crafting seamless digital experiences. With expertise in modern
-            technologies, I transform ideas into engaging, user-friendly
-            applications. Let's collaborate to bring your vision to life and
-            make the web a more beautiful place. Explore my portfolio and
-            connect with me!
+            I'm a passionate web developer dedicated to crafting seamless
+            digital experiences. With expertise in modern technologies, I
+            transform ideas into engaging, user-friendly applications. Let's
+            collaborate to bring your vision to life and make the web a more
+            beautiful place. Explore my portfolio and connect with me!
           </p>
           <div className="flex justify-center">
             <a href="/myCV.pdf">
@@ -56,7 +50,7 @@ export default function Hero() {
             alt="hero"
             width={500}
             height={500}
-            src={"/public/profile.jpg"}
+            src={"/profile.jpg"}
           />
         </div>
       </div>

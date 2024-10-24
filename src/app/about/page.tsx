@@ -87,6 +87,8 @@ export default function About() {
                     <Image
                       src={skill.logo}
                       alt={`${skill.name} logo`}
+                      width={100}
+                      height={100}
                       className="h-10 w-10 mb-2 mr-3"
                     />
                     <span className="text-xl sm:text-sm md:text-2xl lg:text-3xl font-semibold">
