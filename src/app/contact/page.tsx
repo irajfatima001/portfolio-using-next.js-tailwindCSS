@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <main className="bg-black text-white min-h-screen flex flex-col">
       <Header />
-      <div className="flex-grow flex flex-col justify-center items-center px-4 py-10">
+      <div className="flex-grow flex flex-col justify-center items-center px-4 py-10 my-20">
         <h1 className="text-4xl font-bold mb-6 italic">Contact Me</h1>
         
         <form className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-md">

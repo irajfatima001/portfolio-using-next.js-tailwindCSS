@@ -8,7 +8,7 @@ import Contact from "./components/contact"
 import Footer from "./components/Footer"
 export default function Home(){
   return(
-    <div className="w-auto">
+    <div className="w-screen">
       <Header/>
       <Hero/>
       <About/>
